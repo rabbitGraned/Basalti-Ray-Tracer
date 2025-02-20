@@ -64,5 +64,6 @@ This project is distributed under the MIT license. For details, see the `LICENSE
 This implementation is a very simple ray tracer that allows understanding the principles of scene construction based on ray tracing, working with vector coordinates, and describing some primitives.
 
 ## Links
-Basalti by rabbitGraned.
+«Basalti» by rabbitGraned.
+
 [rabbitGraned Animation](https://t.me/rabbitGranedAnimation)
