@@ -63,6 +63,6 @@ The program saves the rendering result in the `image.ppm` file in Portable Pixma
 This project is distributed under the MIT license. For details, see the `LICENSE` file.
 This implementation is a very simple ray tracer that allows understanding the principles of scene construction based on ray tracing, working with vector coordinates, and describing some primitives.
 
-## Outlook
-[rabbitGraned]  
-[[rabbitGraned Animation](https://t.me/rabbitGranedAnimation)]
+## Links
+Basalti by rabbitGraned.
+[rabbitGraned Animation](https://t.me/rabbitGranedAnimation)
