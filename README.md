@@ -12,7 +12,7 @@ $$(x−cx​)2+(y−cy​)2+(z−cz​)2=r2$$
 
 
 ## About
-The program is a simple path tracer that allows rendering basic primitives: `sphere`, `cube`, and `cylinder`. The program provides the option to select an object for rendering through a console menu. Visualization occurs in the background, and the rendering result is saved in a `.ppm` file.
+The program is a simple ray tracer that allows rendering basic primitives: `sphere`, `cube`, and `cylinder`. The program provides the option to select an object for rendering through a console menu. Visualization occurs in the background, and the rendering result is saved in a `.ppm` file.
 
 ## Build
 1. The following is required:
