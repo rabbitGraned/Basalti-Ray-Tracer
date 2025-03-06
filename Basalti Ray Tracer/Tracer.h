@@ -33,7 +33,7 @@ inline Vec3 calculateNormal(const Vec3& hitPoint, const Sphere& sphere) {
 
 inline Vec3 calculateNormal(const Vec3& hitPoint, const Cube& cube) {
     Vec3 d = (hitPoint - cube.center) / cube.size;
-    double maxComponent = max(std::abs(d.x), max(abs(d.y), std::abs(d.z)));
+    double maxComponent = max(abs(d.x), max(abs(d.y), abs(d.z)));
     if (abs(d.x) == maxComponent) return Vec3(d.x > 0 ? 1 : -1, 0, 0);
     if (abs(d.y) == maxComponent) return Vec3(0, d.y > 0 ? 1 : -1, 0);
     return Vec3(0, 0, d.z > 0 ? 1 : -1);
@@ -41,7 +41,7 @@ inline Vec3 calculateNormal(const Vec3& hitPoint, const Cube& cube) {
 
 inline Vec3 calculateNormal(const Vec3& hitPoint, const Cylinder& cylinder) {
     Vec3 d = hitPoint - cylinder.center;
-    double dist = std::sqrt(d.x * d.x + d.z * d.z);
+    double dist = sqrt(d.x * d.x + d.z * d.z);
     return Vec3(d.x / dist, 0, d.z / dist);
 }
 
