@@ -7,7 +7,7 @@
 $$(x−cx​)2+(y−cy​)2+(z−cz​)2=r2$$
 
 <div align="center">
-  <p>Example Shpere</p>
+  <p>Example Sphere</p>
 </div>
 
 
