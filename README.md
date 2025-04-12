@@ -60,7 +60,7 @@ By default, the camera looks straight at the object.
 The program saves the rendering result in the `image.ppm` file in Portable Pixmap (PPM) format. To view the result, open the `image.ppm` file in any compatible application.
 
 ## License
-This project is distributed under the MIT license. For details, see the `LICENSE` file.
+This project is distributed under the MIT License. For details, see the `LICENSE` file.
 This implementation is a very simple ray tracer that allows understanding the principles of scene construction based on ray tracing, working with vector coordinates, and describing some primitives.
 
 ## Links
